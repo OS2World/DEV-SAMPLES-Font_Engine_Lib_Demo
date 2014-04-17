@@ -1,0 +1,32 @@
+NAME WINDOWCOMPAT
+
+DESCRIPTION 'Font Engine Configuration Library Demo Application'
+
+CODE         MOVEABLE
+DATA         MOVEABLE MULTIPLE
+
+HEAPSIZE     8192
+STACKSIZE    16384
+
+IMPORTS     FECONFIG._detectFontEngine
+            FECONFIG._isFontEngineEnabled
+            FECONFIG._enableFontEngine
+            FECONFIG._disableFontEngine
+            FECONFIG._isHintingEnabled
+            FECONFIG._enableHinting
+            FECONFIG._disableHinting
+            FECONFIG._isAntiAliasingEnabled
+            FECONFIG._enableAntiAliasing
+            FECONFIG._disableAntiAliasing
+            FECONFIG._isSubPixelEnabled
+            FECONFIG._enableHorizontalSubPixel
+            FECONFIG._enableVerticalSubPixel
+            FECONFIG._enableLightSubPixel
+            FECONFIG._disableSubPixel
+            FECONFIG._getFontEngineApplicationCount
+            FECONFIG._getApplicationInformation
+            FECONFIG._enableApplication
+            FECONFIG._disableApplication
+            FECONFIG._getApplication
+            FECONFIG._addApplication
+            FECONFIG._deleteApplication
